@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(white,blue);
+    height: 100vh;
+}
+.mainHeading{
+    margin: 20px;
+    text-align: center;
+}
+.chatContainer{
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    border-radius: 10px;
+    
+}
+.left{
+    margin: 8px;
+    width: 40%;
+    border: 1px solid black;
+    float: left;
+    clear: both;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.right{
+    margin: 8px;
+    width: 40%;
+    height:auto;
+    border: 1px solid black;
+    float: right;
+    clear: both;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.messageBox{
+    width: 600px;
+    margin:10px auto;
+}
+
+.messageInbox{
+    width: 540px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+
+}
+.messageInbox:focus{
+    outline: none;
+}
+.sendBtn{
+    width: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.messageSendBox{
+    width: 612px;
+    padding:10px;
+    height: 170px;
+    margin:10px auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+.styling{
+    padding: 10px;
+}
+
+.styling button{
+    padding: 8px;
+}
+.belowInput button{
+    padding: 5px;
+    margin: 4px;
+    
+}

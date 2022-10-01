@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App!</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="socket.io/socket.io.js"></script>
+
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <h1 class="mainHeading">Chat App!!</h1>
+
+    <div class="chatContainer"></div>
+
+
+
+    <div class="messageSendBox">
+      <div style="width:600px;margin:auto;height: 150px; border: 1px solid white;">
+      <div class="styling">
+         <button class="bold"><i class="fa fa-bold"></i></button>
+         <button class="italic"><i class="fa fa-italic"></i></button>
+         <button class="strikethrough"><i class="fa fa-strikethrough"></i></button>
+         <button class = "hyperlink"><i class="fa fa-link"></i></button>
+         <button class="bulleted"><i class="fa fa-list"></i></button>
+         <button class="numbered"><i class="fa fa-list-ol"></i></button>
+         <button class="blockquoted"><i class="fa fa-block-quote">Blockquote</i></button>
+         <button class="snippet"><i class="fa fa-code"></i></button>
+         <button class="codeblock">Code Block</button>
+      </div>
+   
+      <form action="#" class="messageBox">
+        <textarea name="messageInbox" class="messageInbox" placeholder="Chat comes here..." id="" cols="3" rows="1"></textarea>
+        <div class="belowInput">
+            <button type="button">+</button>
+            <button type="button"><i class="fa fa-smile-o" aria-hidden="true"></i></button>
+            <button type="button">@</button>
+            <button type="submit" class="sendBtn" style="float:right;background-color:green;margin-right: 10px;"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </div>
+        
+      </form>
+    </div>
+    </div>
+  </body>
+</html>
